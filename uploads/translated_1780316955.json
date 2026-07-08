@@ -1,0 +1,18 @@
+{
+    "menu_start_game": "Yeni Oyuna Başla",
+    "menu_settings": "Ayarlar",
+    "menu_exit": "Oyundan Çık",
+    "menu_volume": "Müzik Sesi",
+    "ui_game_over": "OYUN BİTTİ",
+    "ui_score": "Skor",
+    "ui_loading": "Diyar Yükleniyor...",
+    "item_sword_name": "Paslı Kılıç",
+    "item_sword_desc": "Harabelerde keşfedilmiş kadim bir kılıç. Keskinliğini çoktan yitirmiş.",
+    "item_potion_health": "Can İksiri",
+    "item_potion_mana": "Mana İksiri",
+    "dialogue_villager_hello": "Selam gezgin! Seni köyümüze getiren nedir?",
+    "dialogue_guard_stop": "DUR! İznin olmadan öteye adım atamazsın.",
+    "dialogue_shopkeeper": "Mallarıma bir göz at. Diyardaki en uygun fiyatlar bende!",
+    "error_connection_lost": "Sunucuyla bağlantı kesildi. Lütfen internet bağlantınızı kontrol edin.",
+    "error_save_failed": "Oyun kaydedilemedi."
+}
