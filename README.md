@@ -1,9 +1,12 @@
-# LocaGen PRO
+# LocaGen PHP
 
-LocaGen PRO is a PHP and MySQL web app I built for translating game localization files with Google's Gemini API. After logging in, you upload a JSON language file, pick a target language, and the app sends the file to Gemini with instructions to translate only the values, keep the keys, and use natural gaming language instead of word-for-word output. The translated file is saved on the server and offered as a download. Every translation is logged, and admin users get a page that lists all logs.
+LocaGen PHP is a PHP and MySQL web app I built for translating game localization files with Google's Gemini API. After logging in, you upload a JSON language file, pick a target language, and the app sends the file to Gemini with instructions to translate only the values, keep the keys, and use natural gaming language instead of word-for-word output. The translated file is saved on the server and offered as a download. Every translation is logged, and admin users get a page that lists all logs.
 
-- Other version: [LocaGen FREE](https://github.com/manyaksisko35/LocaGenFree) (Python desktop app, uses Google Translate)
-- itch.io: [LocaGen PRO - Universal Game Localization Tool](https://hasan-alp-gungor.itch.io/locagen-pro-universal-game-localization-tool)
+This is a separate web project. The LocaGen desktop app comes in two Python editions:
+
+- [LocaGen Free](https://github.com/manyaksisko35/LocaGenFree): open source, JSON files, 6 languages, Google Translate
+- LocaGen PRO: JSON, CSV and TXT files, 25+ languages and a Smart Glossary for game terms
+- Both editions on itch.io: [LocaGen Pro - Universal Game Localization Tool](https://hasan-alp-gungor.itch.io/locagen-pro-universal-game-localization-tool)
 - Project page: [hasanalpgungor.com/en/projects/locagen](https://hasanalpgungor.com/en/projects/locagen)
 
 ## Features
@@ -99,6 +102,6 @@ A full sample output is in `uploads/translated_1780316955.json`.
 
 ## Türkçe
 
-LocaGen PRO, oyun dil dosyalarını (JSON) Gemini API ile çeviren bir PHP + MySQL web uygulamasıdır. Kullanıcı giriş yaptıktan sonra dosyasını yükler, hedef dili seçer ve çevrilmiş dosyayı indirir; anahtarlar değişmez, sadece değerler çevrilir. Her çeviri veritabanına kaydedilir ve admin paneli tüm kayıtları listeler. Kurulum için `locagen.sql` dosyasını içe aktarmanız, `includes/db.php` içindeki bağlantı bilgilerini düzenlemeniz ve proje klasörüne `GEMINI_API_KEY` içeren bir `.env` dosyası koymanız gerekir.
+LocaGen PHP, oyun dil dosyalarını (JSON) Gemini API ile çeviren bir PHP + MySQL web uygulamasıdır. LocaGen'in Python ile yazılmış Free ve PRO masaüstü sürümlerinden ayrı bir projedir. Kullanıcı giriş yaptıktan sonra dosyasını yükler, hedef dili seçer ve çevrilmiş dosyayı indirir; anahtarlar değişmez, sadece değerler çevrilir. Her çeviri veritabanına kaydedilir ve admin paneli tüm kayıtları listeler. Kurulum için `locagen.sql` dosyasını içe aktarmanız, `includes/db.php` içindeki bağlantı bilgilerini düzenlemeniz ve proje klasörüne `GEMINI_API_KEY` içeren bir `.env` dosyası koymanız gerekir.
 
 Made by [Hasan Alp Güngör](https://hasanalpgungor.com/en)
